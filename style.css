@@ -1,0 +1,185 @@
+.brand{
+	font-family: 'Lobster', cursive;
+	font-size: 2rem;
+	margin-left: 3%;
+}
+.secnav{
+	margin-left: 28%;
+}
+.secnav1{
+	margin-left: 55%;
+}
+.iconcolor{
+	color: white;
+}
+.back{
+	background-color: black;
+}
+.secnav2{
+	margin-left: 30%;
+}
+.img1{
+	width: 99%;
+
+}
+.img2{
+	width: 100%;
+
+}
+.img3{
+	width: 49%;
+	height: 40%;
+
+}
+.img4{
+	    width: 100%;
+    	height: 100%;
+}
+.img5{
+	width: 100%;
+}
+.hrwidth{
+	margin-top: 0%;
+	width: 10%;
+	background-color: lightblue;
+	float: left;
+	height: 3px;
+
+
+}
+.logoimges{
+	width: 100%;
+}
+.logotext{
+	margin-top: 0%;
+
+}
+.logomargin{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.bgimg{
+	background-image: url("cover.JPG");
+	background-color: black;
+		
+
+
+}
+
+
+
+
+/*slide button*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 34px;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: yellow;
+  -webkit-transition: .4s;
+  transition: .4s;
+   padding:5px;
+  text-align: center;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.iconcolor1{
+	color: yellow;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border:2px solid #e6d40e;
+	display:inline-block;
+	cursor:pointer;
+	color:#e6d40e;
+	font-family:Arial;
+	font-size:20px;
+	padding:11px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.opac{
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+}
+.galleyimg{
+	width: 100%;
+}
+
+
+
+/*
+@media screen and (max-width:  542px){
+
+
+
+.mrg{
+	margin-top: 5rem;
+}
+
+
+}*/
